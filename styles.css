@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #a0aecd;
+  width: 100%;
+  color: #000000;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+main {
+  width: fit-content;
+  margin: auto;
+}
+img {
+  align-items: center;
+  justify-content: center;
+}
+img:hover {
+  opacity: 0.5;
+}
+.one {
+  display: flex;
+  flex-direction: column;
+  column-gap: 20px;
+  align-items: center;
+  padding-bottom: 20px;
+}
+.two {
+  background-color: #1a2238;
+  width: fit-content;
+  padding: 18px;
+}
+.threee {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+  align-items: center;
+}
+.inner {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+input {
+  width: 130px;
+  height: 25px;
+  background-color: #fff;
+  color: #000;
+}
+button {
+  width: 80px;
+  border-radius: 40px;
+  padding: 5px;
+}
+button:hover {
+  background-color: #1a2238;
+}
+.three {
+  width: fit-content;
+  height: 150px;
+  padding: 20px;
+  align-items: center;
+}
+.fourr {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+  margin: auto;
+  margin-right: 0;
+}
+.four {
+  width: fit-content;
+  display: flex;
+  justify-content: flex-end;
+}
+.four div {
+  width: 190px;
+  max-width: 150px;
+  margin-right: 60px;
+  background-color: #ffffff;
+}
+div p {
+  padding: 7px;
+  margin: auto;
+  text-transform: uppercase;
+}
+h1 {
+  font-size: 30px;
+  font-style: italic;
+  color: #fff;
+}
+.h {
+  font-style: italic;
+  color: #fff;
+  font-weight: 600;
+}
+.five {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.five a {
+  text-decoration: none;
+  font-size: 15px;
+}
+.five a:hover {
+  color: rgb(26, 21, 21);
+}
+.p {
+  font-size: 15px;
+  color: #000;
+}
+#demo {
+  color: #fff;
+}
