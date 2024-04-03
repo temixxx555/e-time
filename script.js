@@ -179,7 +179,7 @@ button.addEventListener("click", () => {
             "15:00-16:00": "no class",
             "16:00-17:00": "No class",
             "17:00-18:00": "No class",
-              "18:00-07:00": "night time",
+             "18:00-24:00": "night time",
           },
           thursday: {
             "07:00-08:00": "no class",
